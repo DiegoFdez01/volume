@@ -1,5 +1,8 @@
 //
-// Do any local configuration here
+zone "miequipo.com" {
+	 	type master;
+		file "/etc/bind/db.miequipo.com";
+	 };
 //
 
 // Consider adding the 1918 zones here, if they are not used in your
